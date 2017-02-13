@@ -5,9 +5,11 @@ namespace AdapterExample
 {
     class Program
     {
+        /* Main() is the "client" that knows how to interact with our IShape interface. */
+
         static void Main()
         {
-            var myRectangle = new Rectangle(0, 0, 10, 4);
+            IShape myRectangle = new Rectangle(0, 0, 10, 4);
             myRectangle.CalculateArea();
 
             Console.ReadLine();

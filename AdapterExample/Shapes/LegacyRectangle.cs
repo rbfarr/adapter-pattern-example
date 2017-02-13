@@ -7,6 +7,8 @@ namespace AdapterExample.Shapes
         private readonly int _width;
         private readonly int _height;
 
+        /* LegacyRectangle is created in terms of width and height */
+
         public LegacyRectangle(int width, int height)
         {
             _width = width;
